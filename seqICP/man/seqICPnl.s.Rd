@@ -5,9 +5,10 @@
 \title{Non-linear Invariant Causal Prediction for an individual
   set S}
 \usage{
-seqICPnl.s(X, Y, S, test = "block.variance", par.test = list(grid = c(0,
-  round(nrow(X)/2), nrow(X)), complements = FALSE, link = sum, alpha = 0.05, B =
-  100), regression.fun = function(X, Y) fitted.values(lm.fit(X, Y)))
+seqICPnl.s(X, Y, S, test = "block.variance", par.test = list(grid =
+  c(0, round(nrow(X)/2), nrow(X)), complements = FALSE, link = sum, alpha =
+  0.05, B = 100), regression.fun = function(X, Y) fitted.values(lm.fit(X,
+  Y)))
 }
 \arguments{
 \item{X}{matrix of predictor variables. Each column corresponds to
@@ -118,7 +119,8 @@ seqICPnl.s(Xmatrix, Y, S=c(1,2), par.test=list(grid=c(0,50,100,150,200)), regres
 }
 \references{
 Pfister, N., P. Bühlmann and J. Peters (2017).
-Invariant Causal Prediction for Sequential Data. ArXiv e-prints (1706.08058).
+  Invariant Causal Prediction for Sequential Data. Journal of the
+  American Statistical Association, 114(527), 1264-1276.
 
 Peters, J., P. Bühlmann, and N. Meinshausen (2016).
 Causal inference using invariant prediction: identification and confidence intervals.

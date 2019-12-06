@@ -85,9 +85,9 @@
 ##'
 ##' @author Niklas Pfister and Jonas Peters
 ##'
-##' @references
-##' Pfister, N., P. Bühlmann and J. Peters (2017).
-##' Invariant Causal Prediction for Sequential Data. ArXiv e-prints (1706.08058).
+##' @references Pfister, N., P. Bühlmann and J. Peters (2017).
+##'   Invariant Causal Prediction for Sequential Data. Journal of the
+##'   American Statistical Association, 114(527), 1264-1276.
 ##'
 ##' Peters, J., P. Bühlmann, and N. Meinshausen (2016).
 ##' Causal inference using invariant prediction: identification and confidence intervals.
